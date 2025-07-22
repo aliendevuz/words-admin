@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function Login() {
 
-    const API_PATH = "https://api.4000.uz/login";
+    const API_PATH = "https://api.admin.4000.uz/login";
     const [password, setPassword] = useState("");
 
     const handleLogin = () => {

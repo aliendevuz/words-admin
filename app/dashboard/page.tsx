@@ -9,7 +9,7 @@ export default function Dashboard() {
         name: string;
     }
 
-    const API_PATH = "https://api.4000.uz/get_users";
+    const API_PATH = "https://api.admin.4000.uz/get_users";
 
     const [users, setUsers] = useState<User[]>([]);
 

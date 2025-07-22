@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function Verify() {
   const API_PATH =
-    "https://api.4000.uz/verify";
+    "https://api.admin.4000.uz/verify";
 
   const [pinCode, setPinCode] = useState("");
 
